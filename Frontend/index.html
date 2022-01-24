@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>Create Account</h2>
+    </div>
+    <form class="form" id="form">
+        <div class="form-control">
+            <label>Firstname</label>
+            <input type="text" placeholder="Sacid" id="firstName">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Lastname</label>
+            <input type="text" placeholder="Gündüz" id="lastname">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="g.sacid@gmail.com" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Street</label>
+            <input type="text" placeholder="Kampstrasse 25" id="street">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>City</label>
+            <input type="text" placeholder="Schlieren" id="city">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Canton</label>
+            <input type="text" placeholder="Zürich" id="canton">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Phone</label>
+            <input type="text" placeholder="079...." id="phone">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</div>
+
+<script src="script/validate-input.js"></script>
+<script src="script/network.js"></script>
+
+</body>
+</html>
